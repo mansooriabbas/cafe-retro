@@ -1,12 +1,12 @@
 # Caffe Retro
 
-This is a simple HTML page showcasing the offerings of Caffe Retro, a cozy café known for its hot, juicy, and cozy beverages. The page is designed to highlight the essence of the café and its signature drinks.
+This repository contains an HTML page showcasing the offerings of Caffe Retro, a cozy café known for its hot, juicy, and cozy beverages. The page is designed to highlight the essence of the café and its signature drinks.
 
 ## Features
 
-- **Hot Section**: Featuring a selection of hot beverages and their prices.
-- **Juicy Section**: [Placeholder for potential future content on juicy beverages.]
-- **Cosy Section**: [Placeholder for potential future content on cozy ambiance or related offerings.]
+- **Hot Section**: Displays a variety of hot beverages with their corresponding prices.
+- **Juicy Section**: Offers information about juicy beverages. 
+- **Cosy Section**: Presents details about the café's cozy ambiance and additional offerings. 
 
 ## Technologies Used
 
@@ -18,4 +18,12 @@ This is a simple HTML page showcasing the offerings of Caffe Retro, a cozy café
 To view the webpage:
 1. Clone the repository.
 2. Open the `index.html` file in a web browser.
+
+## HTML Structure
+
+The HTML structure of this project includes the following sections:
+
+- **Hot Section**: Provides details about hot beverages such as Mocha Latte, Caffe Formaggio, Espresso, and Chai Verde Latte.
+- **Juicy Section**: Offers information about juicy beverages including Branched Apricots, Deep Raspberries, and Smooth Oranges.
+- **Cosy Section**: Highlights the café's ambiance, operating hours, and contact details.
 

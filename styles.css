@@ -16,8 +16,8 @@ body {
 header {
   display: flex;
   justify-content: center;
+  align-items: center;
   font-family: "Spirax", sans-serif;
-  font-size: larger;
   height: 50px;
   width: 1200px;
   background-color: rgba(68, 9, 9, 0.39);
@@ -29,7 +29,13 @@ header {
 
 header p {
   margin: 20px;
+  font-size: 30px;
 }
+header p > a {
+  text-decoration: none;
+  color: inherit;
+}
+
 
 .hot {
   display: flex;
@@ -53,6 +59,7 @@ header p {
   background-repeat: no-repeat;
   background-position: center;
   height: 900px;
+  border-bottom: solid 10px rgb(68, 9, 9);
 }
 .cosy {
   display: flex;
@@ -66,24 +73,39 @@ header p {
   height: 900px;
 }
 
+
+
 .hot h1,
 .juicy h1,
 .cosy h1 {
   margin-top: 100px;
   color: rgb(114, 5, 5);
   font-family: "Spirax", sans-serif;
-  font-size: xx-large;
+  font-size: 80px;
+  font-weight: bold;
 }
 
 .description-1,
-.description-2,
-.description-3 {
+.description-2 {
   color: white;
-  background-color: rgb(114, 5, 5);
+  background-color: rgba(114, 5, 5, 0.664);
   padding: 10px;
   font-family: "Poiret One", sans-serif;
-  margin-right: 100px;
-  margin-left: 200px;
+  width: 400px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.description-1 {
+  margin-right: 300px;
+  
+}
+.description-2 {
+ width: 400px;
+ margin-left: 100px;
+  
 }
 
 .container {
@@ -93,8 +115,8 @@ header p {
   color: rgba(255, 255, 255, 0.774);
   width: 400px;
   font-family: "Poiret One", sans-serif;
-  font-size: smaller;
   margin-bottom: 20px;
+ 
 }
 
 .container p {
