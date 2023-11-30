@@ -41,9 +41,34 @@ header p {
   background-repeat: no-repeat;
   background-position: center;
   height: 900px;
+  border-bottom: solid 10px rgb(68, 9, 9);
+}
+.juicy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("img/juicy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 900px;
+}
+.cosy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("img/cosy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 900px;
 }
 
-.hot h1 {
+.hot h1,
+.juicy h1,
+.cosy h1 {
   margin-top: 100px;
   color: rgb(114, 5, 5);
   font-family: "Spirax", sans-serif;
@@ -51,7 +76,8 @@ header p {
 }
 
 .description-1,
-.description-2 {
+.description-2,
+.description-3 {
   color: white;
   background-color: rgb(114, 5, 5);
   padding: 10px;
