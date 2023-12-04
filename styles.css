@@ -1,16 +1,15 @@
 body {
   margin: 0;
-  padding: 0;
-  border: 0;
+
   background-color: black;
   /* font-family: 'Poiret One', sans-serif;
     font-family: 'Spirax', sans-serif; */
 }
 
 .page-wrapper {
-  width: 1200px;
+  width: 900px;
   margin: 0 auto;
-  background-color: #f9f9f9;
+  padding: 0 20px;
 }
 
 header {
@@ -19,12 +18,15 @@ header {
   align-items: center;
   font-family: "Spirax", sans-serif;
   height: 50px;
-  width: 1200px;
   background-color: rgba(68, 9, 9, 0.39);
   color: white;
   position: fixed;
   top: 0;
   z-index: 1000;
+  width: 100%;
+  max-width: 900px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 header p {
@@ -36,7 +38,6 @@ header p > a {
   color: inherit;
 }
 
-
 .hot {
   display: flex;
   flex-direction: column;
@@ -47,7 +48,7 @@ header p > a {
   background-repeat: no-repeat;
   background-position: center;
   height: 900px;
-  border-bottom: solid 10px rgb(68, 9, 9);
+  border-bottom: solid 15px rgb(68, 9, 9);
 }
 .juicy {
   display: flex;
@@ -71,9 +72,8 @@ header p > a {
   background-repeat: no-repeat;
   background-position: center;
   height: 900px;
+  margin-bottom: 10px;
 }
-
-
 
 .hot h1,
 .juicy h1,
@@ -96,16 +96,13 @@ header p > a {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 .description-1 {
   margin-right: 300px;
-  
 }
 .description-2 {
- width: 400px;
- margin-left: 100px;
-  
+  width: 400px;
+  margin-left: 100px;
 }
 
 .container {
@@ -116,7 +113,6 @@ header p > a {
   width: 400px;
   font-family: "Poiret One", sans-serif;
   margin-bottom: 20px;
- 
 }
 
 .container p {
