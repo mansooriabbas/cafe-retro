@@ -47,7 +47,7 @@ header p > a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 900px;
+  height: 100vh;
   border-bottom: solid 15px rgb(68, 9, 9);
 }
 .juicy {
@@ -59,7 +59,7 @@ header p > a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 900px;
+  height: 100vh;
   border-bottom: solid 10px rgb(68, 9, 9);
 }
 .cosy {
@@ -71,7 +71,7 @@ header p > a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 900px;
+  height: 100vh;
   margin-bottom: 10px;
 }
 
